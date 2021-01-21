@@ -1,0 +1,156 @@
+[
+    {
+    "idArticle": 1,
+    "nomArticle": "be quiet! Pure Power 11 350W 80PLUS Bronze",
+    "descArticle": "L'alimentation PC be quiet! Pure Power 11 350W 80PLUS Bronze est une valeur sûre pour la conception de votre PC. Silencieuse, fiable et efficace (80PLUS Bronze), elle représente une solution de premier choix pour les intégrateurs ou pour réaliser un PC Gamer entrée/milieu de gamme.",
+    "prixArticle": "65.95",
+    "imageArticle":"alim1.jpg",
+    "marqueArticle": "be quiet!",
+    "typeArticle":
+        {
+            "type":"alim",
+            "watt":"350",
+            "modulaire":0
+        }
+    },
+    {
+    "idArticle": 2,
+    "nomArticle": "be quiet! Straight Power 11 450W 80PLUS Gold",
+    "descArticle": "L'alimentation modulaire be quiet! Straight Power 11 offre un fonctionnement silencieux sans compromis au niveau de la qualité. Certifiée 80PLUS Gold, elle offre un excellent rendement énergétique. Un choix idéal pour les configurations silencieuses, les configurations multi-GPU, etc.",
+    "prixArticle": "107.95",
+    "imageArticle":"alim2.jpg",
+    "marqueArticle": "be quiet!",
+    "typeArticle":
+        {
+            "type":"alim",
+            "watt":"450",
+            "modulaire":1     
+        }
+    },
+    {
+    "idArticle": 3,
+    "nomArticle": "Corsair HX1000 80PLUS Platinum",
+    "descArticle": "L'unité d'alimentation Corsair HX1000 80PLUS Platinum est conçue pour les plates-formes de jeu, les systèmes surcadencés, ou pour n'importe quel PC sur lequel une stabilité électrique à toute épreuve est essentielle.",
+    "prixArticle": "279.95",
+    "imageArticle":"alim3.jpg",
+    "marqueArticle": "corsair",
+    "typeArticle":
+        {
+            "type":"alim",
+            "watt":"900",
+            "modulaire":1         
+        }
+    },
+    {
+    "idArticle": 4,
+    "nomArticle": "Corsair CX750F RGB 80PLUS Bronze (Blanc)",
+    "descArticle": "Les blocs d'alimentation entièrement modulaires Corsair CX-F RGB Series fournissent une alimentation 80 PLUS Bronze efficace et durable à votre système. Vous profitez également d'un éclairage personnalisable dynamique grâce à un ventilateur RGB de 120 mm.",
+    "prixArticle": "119.95",
+    "imageArticle":"alim4.jpg",
+    "marqueArticle": "corsair",
+    "typeArticle":
+        {
+            "type":"alim",
+            "watt":"750",
+            "modulaire":1         
+        }
+    },
+    {
+    "idArticle": 5,
+    "nomArticle": "Corsair CV550 80PLUS Bronze ",
+    "descArticle": "L'alimentation Corsair CV550 80PLUS Bronze bénéficie d'un câblage gainé noir pour s'intégrer en toute discrétion dans votre boitier. Les alimentations de la gamme Corsair CV sont idéales pour votre nouvel ordinateur grâce à leur certification 80 PLUS Bronze qui permet de fournir des tensions stables",
+    "prixArticle": "69.95",
+    "imageArticle":"alim5.jpg",
+    "marqueArticle": "corsair",
+    "typeArticle":
+        {
+            "type":"alim",
+            "watt":"550",
+            "modulaire":0         
+        }
+    },
+    {
+        "idArticle": 6,
+        "nomArticle": "Kingston SSD A400 480 Go",
+        "descArticle": "Le SSD A400 480 Go de Kingston améliore considérablement la réactivité de votre système actuel avec des vitesses de démarrage, de chargement et de transfert par rapport aux disques durs classiques. Il offre des vitesses lecture et d'écriture allant jusqu'à 500Mo/s et 450Mo/s.",
+        "prixArticle": "69.95",
+        "imageArticle":"ssd1.jpg",
+        "marqueArticle": "kingston",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"480",
+                "format":"2' 1/2"                      
+            }
+    },
+    {
+        "idArticle": 7,
+        "nomArticle": "Kingston DC500M 3.84 To",
+        "descArticle": "Le DC500M de Kingston est un SSD conçu pour les applications à charge de travail mixte où la demande porte sur un mélange équilibré entre les opérations de lecture et d'écriture. Il se caractérise par une excellente endurance et des capacités d'écriture supérieure dans un large éventail de charges.",
+        "prixArticle": "1159.94",
+        "imageArticle":"ssd2.jpg",
+        "marqueArticle": "kingston",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"3840",
+                "format":"2' 1/2"                      
+            }
+    },
+    {
+        "idArticle": 8,
+        "nomArticle": "Kingston SSD A400 240 Go",
+        "descArticle": "Le SSD A400 240 Go de Kingston améliore considérablement la réactivité de votre système actuel avec des vitesses de démarrage, de chargement et de transfert par rapport aux disques durs classiques. Il offre des vitesses lecture et d'écriture allant jusqu'à 500Mo/s et 350Mo/s.",
+        "prixArticle": "44.95",
+        "imageArticle":"ssd3.jpg",
+        "marqueArticle": "kingston",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"240",
+                "format":"2' 1/2"                      
+            }
+    },
+    {
+        "idArticle": 9,
+        "nomArticle": "Samsung SSD 860 EVO 500 Go",
+        "descArticle": "Le disque SSD Samsung 860 EVO est conçu pour un usage quotidien. Vous n'aurez plus à choisir entre performances et fiabilité et pourrez utiliser votre PC dans les meilleures conditions grâce à l'association de la mémoire V-NAND 3D Samsung et du contrôleur Samsung MJX.",
+        "prixArticle": "84.95",
+        "imageArticle":"ssd4.jpg",
+        "marqueArticle": "samsung",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"500",
+                "format":"2' 1/2"                      
+            }
+    },
+    {
+        "idArticle": 10,
+        "nomArticle": "Samsung SSD 860 EVO 500 Go M.2",
+        "descArticle": "Le disque SSD Samsung 860 EVO M.2 2280 est conçu pour un usage quotidien. Vous n'aurez plus à choisir entre performances et fiabilité et pourrez utiliser votre PC dans les meilleures conditions grâce à l'association de la mémoire V-NAND 3D Samsung et du contrôleur Samsung MJX.",
+        "prixArticle": "109.94",
+        "imageArticle":"ssd5.jpg",
+        "marqueArticle": "samsung",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"500",
+                "format":"m.2"                      
+            }
+    },
+    {
+        "idArticle": 11,
+        "nomArticle": "Samsung SSD 970 EVO M.2 PCIe NVMe 1 To",
+        "descArticle": "Le disque SSD 970 EVO de Samsung vous permet d'accéder à des performances de nouvelle génération. Plus fiable et plus rapide que les SSD des générations précédentes, le Samsung 970 EVO M.2 2280 s'appuie sur l'interface PCI-E 3.0 x4 ainsi que sur la technologie NVMe 1.3.",
+        "prixArticle": "179.94",
+        "imageArticle":"ssd6.jpg",
+        "marqueArticle": "samsung",
+        "typeArticle":
+            {
+                "type":"disquedur",
+                "capacite":"1000",
+                "format":"m.2"                      
+            }
+    }
+]

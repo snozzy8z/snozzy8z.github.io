@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- Cédric CSS -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- Bootstrap JS -->
+    <title>Site de vente qui déchire</title>
+
+    <title>site de vente qui déchire</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center m-0 focus-in-expand-fwd"
+            style="background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%); height:120px;">Site
+            de vente qui déchire</h1>
+        <nav class="row navbar navbar-expand-lg navbar-dark bg-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tous nos produits
+                        </a>
+                        <div class="dropdown-menu dropdown-large" aria-labelledby="navbarDropdown">
+                            <a id="menu-piece" class="dropdown-item"
+                                        href="#">Pièces</a>
+                            <div class=" row">
+                                <div class="col">
+                                    <a id="menu-alim" class="dropdown-item tracking-in-contract-bck-top"
+                                        href="#">Alimentation</a>
+                                    <a id="menu-disquedur" class="dropdown-item tracking-in-contract-bck-bottom"
+                                        href="#">Disque dur</a>
+                                </div>
+                                <div class="col">
+                                    <a id="menu-processeur"
+                                        class="dropdown-item tracking-in-contract-bck-top" href="#">Processeur</a>
+                                        <a id="menu-ram" class="dropdown-item tracking-in-contract-bck-bottom"
+                                            href="#">Mémoire PC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Connexion.html">Connexion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Inscription.html">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./form.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="panier">
+                    <a href="./panier.html">
+                        <button type="button" class="btn btn-light mr-2"><i
+                                class="fas fa-shopping-cart mr-1"></i>Panier<span> 0</span></button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container ml-md-0">
+        <div class="row">
+            <aside class="mr-md-3 mt-2 col-12 col-md-2 text-left">
+                <div id="menugauche-alim" class="menugauche">
+                    <form action="post">
+                        <p>Alimentation</p>
+
+                        <label for="fab-alim">Marque : </label>
+                        <div class="input-group mb-3">
+                            <select class="form-control" name="fab-alim" id="fab-alim">
+                                <option disabled selected>Marque</option>
+                                <option value="corsair">Corsair</option>
+                                <option value="bequiet">Bequiet!</option>
+                            </select>
+                        </div>
+                        <label for="puissance-alim">Puissance mini : </label> <span id="puissancealim"></span>W
+                        <input id="puissance-alim" type="range" class="col" max="900" min="80" list="list-puissance">
+                        <datalist id="list-puissance">
+                            <option value="80">
+                            <option value="192">
+                            <option value="300">
+                            <option value="350">
+                            <option value="400">
+                            <option value="450">
+                            <option value="500">
+                            <option value="700">
+                            <option value="800">
+                            <option value="900">
+                        </datalist>
+                        <label for="alimmodulaire1">Modulaire :</label>
+                        <div class="input-group mb-3">
+                            <input type="radio" id="alimmodulaire1" name="alimmodulaire" class="col-md-2">Oui
+                            <input type="radio" id="alimmodulaire0" name="alimmodulaire"
+                                class="col-md-2 offset-md-2">Non
+                        </div>
+                        <label for="rangeprix-alim">Prix :</label>
+                        <select class="form-control rangeprix">
+                            <option disabled selected>Prix</option>
+                            <option value="more150"> > 150€</option>
+                            <option value="less150"> <= 150€ </option>
+                        </select>
+                    </form>
+                </div>
+                <div id="menugauche-disquedur" class="menugauche">
+                    <form action="" method="post">
+                        <p>Disque SSD</p>
+                        <label for="fab-ssd">Marque</label>
+                        <select class="form-control" name="fab-ssd" id="fab-ssd">
+                            <option disabled selected>Marque</option>
+                            <option value="Kingston">Kingston</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Corsair">Corsair</option>
+                        </select>
+                        <label for="format-ssd">Format</label>
+                        <select class="form-control" name="format-ssd" id="format-ssd">
+                            <option disabled selected>Marque</option>
+                            <option value="M2">M.2</option>
+                            <option value="2pouce">2' 1/2</option>
+                        </select>
+                        <label for="rangecapassd">Capacité</label>
+                        <input id="rangecapassd" type="range" class="col-12">
+                        <label for="rangeprix-ssd">Prix</label>
+                        <select class="form-control rangeprix">
+                            <option disabled selected>Prix</option>
+                            <option value="more150"> > 150€</option>
+                            <option value="less150"> <= 150€ </option>
+                        </select>
+                    </form>
+                </div>
+                <div id="menugauche-proco" class="menugauche">
+                    <form action="" method="post">
+                        <p>Processeur</p>
+                        <label for="marqueprocess">Marque</label>
+                        <select class="form-control" name="" id="marqueprocess">
+                            <option disabled selected>Marque</option>
+                            <option value="intel">Intel</option>
+                            <option value="amd">AMD</option>
+                        </select>
+                        <label for="rangenbcoeur">Nombre de coeurs : </label><span id="nbcoeur"> 64</span>
+                        <input id="rangenbcoeur" type="range" class="col-12">
+
+                        <label for="socketproc">Socket</label>
+                        <select class="form-control" name="" id="socketproc">
+                            <option disabled selected>Type Socket</option>
+                            <option value="am4">AMD AM4</option>
+                            <option value="i1200">Intel 1200</option>
+                            <option value="i1151">Intel 1151</option>
+                        </select>
+
+                        <label for="rangeprix-proc">Prix</label>
+                        <select class="form-control rangeprix">
+                            <option disabled selected>Prix</option>
+                            <option value="more150"> > 150€</option>
+                            <option value="less150"> <= 150€ </option>
+                        </select>
+                    </form>
+                </div>
+                <div id="menugauche-ram" class="menugauche">
+                    <form action="" method="post">
+                        <p>Mémoire Vive</p>
+                        <label for="marqueram">Marque</label>
+                        <select class="form-control" name="" id="marqueram">
+                            <option disabled selected>Marque</option>
+                            <option value="gskill">G skill</option>
+                            <option value="Corsair">Corsair</option>
+                            <option value="Crucial">Crucial</option>
+                        </select>
+
+                        <label for="typememoire">Type de mémoire</label>
+                        <select class="form-control" name="" id="typememoire">
+                            <option disabled selected>Type RAM</option>
+                            <option value="ddr2">DDR 2</option>
+                            <option value="ddr3">DDR 3</option>
+                            <option value="ddr4">DDR 4</option>
+                        </select>
+
+                        <label for="">Capacité</label>
+                        <input id="rangeprix-proc" type="range" class="col-12">
+                        <label for="rangeprix-ram">Prix</label>
+                        <select class="form-control rangeprix">
+                            <option disabled selected>Prix</option>
+                            <option value="more150"> > 150€</option>
+                            <option value="less150"> <= 150€ </option>
+                        </select>
+
+                    </form>
+                </div>
+            </aside>
+            <main class="row col-12 col-md-10">
+                
+            </main>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="address">
+                            <h3>Nos coordonnées</h3>
+                            <p class="mb-4 mt-4">La Manu, 69 rue des Jacobins</p>
+                            <p><strong>Tél.:</strong> +33 645721545</p>
+                            <p><strong>Email:</strong> sextoy69@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 footer-menus">
+                        <h4>Liens utiles</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <a href="#">Accueil</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">A propos de nous</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Nos produits</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Nos partenaires</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Conditions de service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 footer-menus">
+                        <h4>Nos services</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement souris</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement clavier</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement écran</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement PC</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Installation fibre</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 newsletter">
+                        <h4>Notre Newsletter</h4>
+                        <p>Restez informés de nos dernières trouvailles à prix cassé sur le marché de l'informatique. </p>
+                        <form action="#"><input type="email" id="email" name="email" /><input type="submit" name="button_mail" id="button_mail"
+                            value="Inscription" />
+                        </form>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center mb-2">&copy; Copyright <strong>CTC Team</strong>. Tous droits réservés</p>
+                        <p class="text-center mb-0">Crée par <a href="https://www.youporn.fr/" target="_blank">Cédric, Tony & Christophe</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+    <script src="assets/main.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/panier.js" defer></script>
+</body>
+
+</html>

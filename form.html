@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <!-- Cédric+jeremy CSS -->
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- Bootstrap JS -->
+    <title>Site de vente qui déchire</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-center m-0 "
+            style="background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%); height:120px;">Site de vente qui déchire</h1>
+        <section class="section home-5-bg" id="home">
+            <div id="particles-js"></div>
+            <div class="bg-overlay"></div>
+            <div class="home-center">
+                <div class="home-desc-center">
+                    <div class="container">
+                        <div class="justify-content-center row">
+                            <div class="col-lg-7">
+                                <div class="mt-40 text-center home-5-content">
+                                    <div class="home-icon mb-4"><i class="mdi mdi-pinwheel mdi-spin text-white h1"></i></div>
+                                    <h1 class="text-white font-weight-normal home-5-title mb-0">CTC TEAM</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <nav class="row navbar navbar-expand-lg navbar-dark bg-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./Connexion.html">Connexion <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Inscription.html">Inscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./form.html">Contact</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="./panier.html"><button type="button" class="btn btn-light mr-2"> <i class="fas fa-shopping-cart mr-1"></i>Panier</button></a>
+                </div>
+            </div>
+        </nav>
+        <div name="mess_info" id="mess_info" class="mess_info"></div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row  justify-content-center scale-in-ver-bottom " style="">
+                <div class="col-lg-6 bg-white border shadow p-3 mb-5 rounded" style="border-top-left-radius: 50%;">
+                    <h2 class="font-weight-bold text-center p-5">Contactez-nous</h2>
+                    <form class="text-center">
+                        <div class="form-group">
+                            <input type="text" name="lastname" id="lastname" required class="form-control bg-light mt-3" style placeholder="Nom">
+                            <input type="text" name="firstname" id="firstname" required class="form-control bg-light mt-3" style placeholder="Prénom">
+                        </div>
+                        <div class="form-group text-center">
+                            <div>
+                                <input type="email" name="adr_mail" id="adr_mail" required class="form-control bg-light mb-3" required style
+                                    placeholder="Adresse mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                <div class="form-group">
+                                <input type="text"  name="adr_post" id="adr_post" required class="form-control bg-light" id="exampleInputPassword1"
+                                    placeholder="Adresse postale">
+                                </div>
+                            </div>
+                            <div>
+                                <textarea type="text" name="mess" id="mess" required class="form-control bg-light" id="exampleInputPassword1"
+                                    placeholder="Votre message" rows="5" cols="33"></textarea>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button name="valid_form" id="valid_form" class="btn mt-3 px-5"
+                                style="background-color: orangered; border-radius: 20px; text-decoration: white;">
+                                Envoyer </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="address">
+                            <h3>Nos coordonnées</h3>
+                            <p class="mb-4 mt-4">La Manu, 69 rue des Jacobins</p>
+                            <p><strong>Tél.:</strong> +33 645721545</p>
+                            <p><strong>Email:</strong> sextoy69@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 footer-menus">
+                        <h4>Liens utiles</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <a href="#">Accueil</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">A propos de nous</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Nos produits</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Nos partenaires</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Conditions de service</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 footer-menus">
+                        <h4>Nos services</h4>
+                        <ul>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement souris</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement clavier</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement écran</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Branchement PC</a></li>
+                            <li><i class="fas fa-check"></i> <a href="#">Installation fibre</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 newsletter">
+                        <h4>Notre Newsletter</h4>
+                        <p>Restez informés de nos dernières trouvailles à prix cassé sur le marché de l'informatique.
+                        </p>
+                        <form action="#"><input type="email" id="email" name="email" /><input type="submit" name="button_mail" id="button_mail"
+                                value="Inscription" />
+                        </form>
+                        <div class="social-links mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center mb-2">&copy; Copyright <strong>CTC Team</strong>. Tous droits réservés</p>
+                        <p class="text-center mb-0">Crée par <a href="https://www.youporn.fr/" target="_blank">Cédric,
+                                Tony & Christophe</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/main.js"></script>
+    <script src="https://kit.fontawesome.com/2c087d4514.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
